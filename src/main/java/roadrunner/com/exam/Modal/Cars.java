@@ -20,6 +20,8 @@ import lombok.Setter;
 
 
 public class Cars {
+    public Cars(long id2, String image2, String name2, String shortdescription2, String longdescription2, int i) {
+    }
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
